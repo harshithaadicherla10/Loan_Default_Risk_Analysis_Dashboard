@@ -51,9 +51,9 @@ loan-default-analysis/
 This project is licensed under the MIT License.
 
 ## 🙌 Acknowledgements
-Dataset exported from SQL database
+- Dataset exported from SQL database
 
-Analysis & Visualizations: Power BI (Power Query + DAX)
+- Analysis & Visualizations: Power BI (Power Query + DAX)
 
 ## Author
 **Harshitha Adicherla**
