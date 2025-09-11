@@ -26,11 +26,9 @@ loan-default-analysis/
 - Power BI dashboard allows **interactive filtering** by year, loan type, and borrower segments.  
 
 ## 📸 Dashboard Preview
-![Dashboard Screenshot](reports/dashboard.png))
-- Loan Default Trend  
-- Borrower Demographics Analysis  
-- Income-to-Loan Ratio Metrics  
-- YOY Loan Performance  
+![Loan Default and Overview](loan_default_&_overview.png)
+![Financial Risk Metrics](financial_risk_metrics.png)
+![Application Demographics and Financial Profile](application_demographics_&_financial_profile.png)
 
 ## ▶️ How to Use
 1. Open the Power BI file (`powerbi/loan_default_dashboard.pbix`) in **Power BI Desktop**.  
