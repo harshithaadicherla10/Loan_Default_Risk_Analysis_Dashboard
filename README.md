@@ -1,16 +1,52 @@
-# Loan Default Data Analysis
+# 📊 Loan Default Risk Analysis Dashboard using Power BI
+
+## 🎯 Problem Statement
+Analyze loan data to identify key factors influencing loan defaults and provide actionable insights to support risk assessment and decision-making for financial institutions.
+
+---
 
 ## 📌 Project Overview
-This project explores **Loan Default behavior** using **Power BI** as the primary analysis and visualization tool.  
-The dataset was exported from an SQL database and imported into Power BI, where all transformations, measures, and reports were built.  
+This project analyzes **loan default behavior** using **Power BI** to uncover patterns in borrower profiles, financial risk, and repayment trends.  
+The dataset was extracted from a structured SQL database and transformed using Power Query for analysis.
 
-- Designed **interactive dashboards** to analyze loan defaults, demographics, and financial risk metrics.  
-- Applied **Power Query** for data cleaning and transformation.  
-- Implemented **advanced DAX** to calculate default rates, income-to-loan ratios, and year-over-year (YOY) loan performance.  
+The dashboard enables stakeholders to:
+- Monitor loan performance and default trends  
+- Identify high-risk borrower segments  
+- Make data-driven credit and lending decisions  
+
+---
 
 ## 🛠️ Tools & Technologies
-- **SQL** (data extraction & export)  
-- **Power BI Desktop** (data modeling, Power Query, DAX, dashboards)  
+- **SQL** – Data extraction and preprocessing  
+- **Power BI** – Data modeling, dashboard development, and reporting  
+- **Power Query** – Data cleaning and transformation  
+- **DAX** – KPI calculations and advanced analytical measures  
+
+---
+
+## 📈 Key Metrics
+- Loan Default Rate  
+- Income-to-Loan Ratio  
+- Year-over-Year (YOY) Loan Performance  
+- Borrower Segmentation Metrics  
+
+---
+
+## 📊 Key Insights
+- Higher default rates observed among borrowers with **low credit scores** and **high income-to-loan ratios**  
+- **Demographic factors** such as age group, employment type, and marital status significantly influence default risk  
+- YOY analysis reveals fluctuations in loan repayment behavior and financial stability trends  
+- Interactive dashboards enable filtering by borrower segment, loan type, and time period  
+
+---
+
+## 💡 Business Impact
+- Helps financial institutions identify **high-risk customers** and reduce default rates  
+- Supports **better credit decision-making** using data-driven insights  
+- Enables targeted strategies based on borrower demographics and financial behavior  
+- Improves overall loan portfolio performance monitoring  
+
+---
 
 ## 📂 Project Structure
 loan-default-analysis/
@@ -19,39 +55,37 @@ loan-default-analysis/
 - loan default data - analysis.pdf
 - README.md
 
-## 📊 Key Insights
-- Loan default risk increases for **borrowers with low credit scores** and **unfavorable income-to-loan ratios**.  
-- **Demographic factors** (age group, employment type, marital status) strongly influence default probability.  
-- **Year-over-Year (YOY) analysis** highlights fluctuations in loan performance and repayment patterns.  
-- Power BI dashboard allows **interactive filtering** by year, loan type, and borrower segments.  
+---
 
 ## 📸 Dashboard Preview
 ![Loan Default and Overview](loan_default_&_overview.png)
 ![Financial Risk Metrics](financial_risk_metrics.png)
 ![Application Demographics and Financial Profile](application_demographics_&_financial_profile.png)
 
+---
+
 ## ▶️ How to Use
-1. Open the Power BI file (`powerbi/loan_default_dashboard.pbix`) in **Power BI Desktop**.  
-2. Explore interactive dashboards and filters.  
-3. Review the summary report in `reports/loan default data - analysis.pdf`.  
+1. Open the Power BI file (`powerbi/loan_default_dashboard.pbix`) in **Power BI Desktop**  
+2. Explore interactive dashboards and slicers  
+3. Analyze loan trends and borrower segments  
+4. Review the summary report in `reports/loan default data - analysis.pdf`  
 
-## 🚀 Getting Started
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/loan-default-analysis.git
-   cd loan-default-analysis
-   ```
-- Open the .pbix file in Power BI Desktop.
+---
 
-- Refresh data (if source connection is available).
+## 🚀 Key Features
+- Interactive dashboard with filters and drill-down capabilities  
+- Dynamic KPI tracking using DAX  
+- Data cleaning and transformation using Power Query  
+- Business-focused insights for risk analysis  
 
-## 📜 License
-This project is licensed under the MIT License.
+---
 
 ## 🙌 Acknowledgements
-- Dataset exported from SQL database
+- Dataset sourced from a structured SQL database containing borrower and loan information  
+- Analysis and visualization performed using Power BI  
 
-- Analysis & Visualizations: Power BI (Power Query + DAX)
+---
 
-## Author
-**Harshitha Adicherla**
+## 👩‍💻 Author
+**Harshitha Adicherla**  
+- GitHub: https://github.com/harshithaadicherla10
